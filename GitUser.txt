@@ -1,0 +1,18 @@
+https://www.runoob.com/w3cnote/android-tutorial-git-repo-operate.html
+
+git add filenaddress
+gir commit -m "备注"
+git log 
+git diff
+------brfore add--------
+git checkout file address
+-------after add--------
+git reset file address
+git checkout file address 
+-------after commit------
+git reset --hard 版本号（通过git log 获得）
+or 
+git reset --hard HEAD  HEAD为当前 HEAD^为上一版本
+------退回旧版本后--------
+git reflog 回退新的那个版本
+git reset --hard 版本号（通过git log 获得）
